@@ -5,11 +5,11 @@
 }
 header {
   background-color: red;
-  text-align:center
+  text-align:center;
 }
 .container {
   background-color: green;
-  display:inline
+  display:inline;
   justify-content: center;
 }
 .global {

@@ -4,5 +4,8 @@
   box-sizing:border-box;
 }
 header {
-  background-color: rgba(0,0,0,0.3)
+  background-color: red
+}
+.container {
+  background-color: green
 }

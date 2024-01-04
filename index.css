@@ -4,6 +4,8 @@
   box-sizing:border-box;
 }
 .container {
+  max-width: 1024px;
+  width:100%;
 }
 header {
   background-color:#192a56;

@@ -3,19 +3,4 @@
   margin:0;
   box-sizing:border-box;
 }
-.global {
-  max-width:1024px ;
-  width: 100%;
-}
-header {
-  background-color: red;
-  text-align:center;
-}
-.container {
-  background-color: green;
-  justify-content: center;
-}
-.container {
-  display: none;
-}
 

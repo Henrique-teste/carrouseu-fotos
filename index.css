@@ -15,7 +15,7 @@ header {
   background-color: green;
   justify-content: center;
 }
-ul {
+ul li a {
  display:none;
 }
 

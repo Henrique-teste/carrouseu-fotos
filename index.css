@@ -17,4 +17,12 @@ nav {
   background-color:#575fcf;
   padding: 16px 0;
 }
+nav li {
+  list-style: none;
+  display:inline;
+  margin-right:16px;
+  font-size:18px;
+  font-weight:bold;
+  text-transform:uppercase;
+}
 

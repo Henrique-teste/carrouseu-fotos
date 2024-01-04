@@ -9,7 +9,7 @@ header {
 }
 .container {
   background-color: green;
-  display:flex;
+  display:inline
   justify-content: center;
 }
 .global {

@@ -15,7 +15,7 @@ header {
   background-color: green;
   justify-content: center;
 }
-#contatos {
+.container ul li {
   display: none;
 }
 

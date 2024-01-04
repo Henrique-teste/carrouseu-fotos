@@ -15,7 +15,7 @@ header {
   background-color: green;
   justify-content: center;
 }
-#contatos, #sobre, #novidades {
+#contatos {
   display: inline;
 }
 

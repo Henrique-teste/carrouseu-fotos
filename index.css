@@ -17,6 +17,6 @@ header {
   width: 100%;
 }
 
-ul li a {
+.container ul li a {
   display: inline;
 }

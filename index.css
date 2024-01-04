@@ -10,13 +10,11 @@
 }
 header {
   background-color:#192a56
+  padding: 16px 0;
+  color:#fff;
 }
 nav {
-  background-color:#575fcf
+  background-color:#575fcf;
+  padding: 16px 0;
 }
-nav li {
-  list-style: none;
-  display: inline;
-  margin-rigth: 16px;
-  font-size:15px;
-}
+

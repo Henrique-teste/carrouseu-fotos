@@ -16,6 +16,6 @@ header {
   justify-content: center;
 }
 #contatos {
-  display: inline;
+  display: none;
 }
 

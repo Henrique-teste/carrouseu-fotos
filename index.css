@@ -15,7 +15,7 @@ header {
   background-color: green;
   justify-content: center;
 }
-.container ul li {
+.container {
   display: none;
 }
 

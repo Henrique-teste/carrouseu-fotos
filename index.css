@@ -10,9 +10,12 @@ header {
 .container {
   background-color: green;
   text-align: center;
-  display:inline;
 }
 .global {
   max-width:1024px ;
   width: 100%;
+}
+
+ul li a {
+  display: inline;
 }

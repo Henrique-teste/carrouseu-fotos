@@ -15,4 +15,7 @@ header {
   background-color: green;
   justify-content: center;
 }
+#contatos {
+  display: none;
+}
 

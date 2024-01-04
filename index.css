@@ -4,11 +4,11 @@
   box-sizing:border-box;
 }
 header {
-  background-color: red
+  background-color: red;
   text-align:center
 }
 .container {
-  background-color: green
+  background-color: green;
   text-align: center;
 }
 .global {

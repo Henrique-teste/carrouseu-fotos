@@ -8,4 +8,9 @@
   width: 100%;
   margin: 0 auto;
 }
-
+header {
+  bacground-color:#192a56;
+}
+nav {
+  bacground-color:#575fcf
+}

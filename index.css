@@ -9,3 +9,7 @@ header {
 .container {
   background-color: green
 }
+.global {
+  max-width: ;
+  width: 100%;
+}

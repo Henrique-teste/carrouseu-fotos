@@ -5,9 +5,11 @@
 }
 header {
   background-color: red
+  text-align:center
 }
 .container {
   background-color: green
+  text-align: center;
 }
 .global {
   max-width:1024px ;

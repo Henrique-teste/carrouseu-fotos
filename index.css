@@ -134,3 +134,7 @@ header {
     left:0;
     z-index: 1;
 }
+ul li p del {
+    margin-top: 10px;
+    background-color:red;
+}

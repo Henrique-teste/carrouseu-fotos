@@ -135,6 +135,6 @@ header {
     z-index: 1;
 }
 ul li p del {
-    margin-top: 10px;
-    background-color:red;
+    padding-top: 10px;
+    color:red;
 }

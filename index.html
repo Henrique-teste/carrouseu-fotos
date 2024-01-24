@@ -25,13 +25,13 @@
             <div class="container">
                 <ul>
                     <li>
-                        <a href="#">Contatos</a>
+                        <a href="#" id="contatos">Contatos</a>
                     </li>
                     <li>
-                        <a href="#">Sobre</a>
+                        <a href="#" id="promoções">Promoções</a>
                     </li>
                     <li>
-                        <a href=#"">Novidades</a>
+                        <a href="#" id="destaque">Em destaque</a>
                     </li>
                 </ul>
             </div>
@@ -45,7 +45,7 @@
     <section id="sobre-a-loja">
         <div class="container container-flex">
             <img src="./images/loja.jpg" alt="Imagem da loja">
-            <div>
+            <div id="sobre-a-loja" >
                 <h2>Sobre a Ebac Motors</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id enim in hic adipisci, saepe atque nihil ipsa pariatur, voluptatibus neque quaerat qui consequuntur. Explicabo aut libero quasi soluta! Qui, blanditiis?
@@ -58,7 +58,7 @@
     </section>
     <section>
         <div class="container">
-            <h2>Em destaque</h2>
+            <h2 id="novidades">Em destaque</h2>
             <ul class="container-flex lista-veiculos">
                 <li class="item-central">
                     <img src="./images/carro-bmw.png" alt="">
@@ -66,8 +66,8 @@
                     <p>
                         Câmbio automático, 4 portas, vidros e travas elátricas
                     </p>
-                     <div class="price">
-                         <strong>R$ 75.000,00</strong> 
+                    <div class="price">
+                        <strong>R$ 75.000,00</strong> 
                     </div>
                     <button type="button">Tenho interesse</button>
                 </li>
@@ -78,7 +78,7 @@
                         Câmbio automático, 4 portas, vidros e travas elátricas
                     </p>
                     <div class="price">
-                         <strong>R$ 75.000,00</strong> 
+                        <strong>R$ 75.000,00</strong> 
                     </div>
                     <button type="button">Tenho interesse</button>
                 </li>
@@ -87,7 +87,7 @@
     </section>
     <section>
         <div class="container">
-            <h2>Promoções</h2>
+            <h2 id="promoções">Promoções</h2>
             <ul class="container-flex lista-veiculos">
                 <li class="item-central">
                     <img src="./images/carro-bmw.png" alt="">
@@ -97,7 +97,7 @@
                     </p>
                     <div class="price">
                         <del> R$100.000,00</del>
-                         <strong>R$ 75.000,00</strong> 
+                        <strong>R$ 75.000,00</strong> 
                     </div>
                     <button type="button">Tenho interesse</button>
                 </li>
@@ -109,14 +109,14 @@
                     </p>
                     <div class="price">
                         <del> R$100.000,00</del>
-                         <strong>R$ 75.000,00</strong> 
+                        <strong>R$ 75.000,00</strong> 
                     </div>
                     <button type="button">Tenho interesse</button>
                 </li>
             </ul>
         </div>
     </section>
-    <section>
+    <section id="contato">
         <div class="container">
             <h2>Entre em contato</h2>
             <form>
@@ -176,16 +176,12 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./plugins/jquery.mask.min.js"></script>
+    <script src="./index.js"></script>
     <script>
         $(document).ready(function(){
-            $('#carrousell-imagens').slick({
-                autoplay:true,
-            });
-            $('.menu-hamburguer').click(function(){
-                $('nav').slideToggle();
-            })
-            $('#Telefone').mask('(00)00000-0000')
-            })
+            $('')
+})
+
     </script>
 </body>
 </html>
